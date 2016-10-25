@@ -130,7 +130,6 @@ def newCategoryItem(category_id):
 # Edit an item
 def editItem(category_id, item_id):
     editedItem = session.query(Item).filter_by(id=item_id).one()
-    print editedItem.user_id
 
     if not userIsOwner(editedItem.user_id):
         return redirect(url_for('showLogin'))
@@ -149,6 +148,15 @@ def editItem(category_id, item_id):
         return redirect(url_for('showItems', category_id=category_id))
     else:
         return render_template('edititem.html', category_id=category_id, item_id=item_id, item=editedItem)
+
+#Display Item
+def showItem(category_id, item_id):
+    #Fetch display data
+    displayItem = session.query(Item).filter_by(id=item_id).one()
+    category = session.query(Category).filter_by(id=category_id).one()
+
+    return render_template('itemdetails.html', category_id=category_id, item_id=item_id, item=displayItem)
+
 
 
 # Delete a menu item

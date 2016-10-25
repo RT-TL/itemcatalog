@@ -47,6 +47,7 @@ app.add_url_rule('/categories/<int:category_id>/edit/', 'editCategory', editCate
 #Category item URLs
 app.add_url_rule('/categories/<int:category_id>/items/', 'showItems', showItems)
 app.add_url_rule('/categories/<int:category_id>/items/new', 'newCategoryItem', newCategoryItem, methods = ['POST', 'GET'])
+app.add_url_rule('/categories/<int:category_id>/items/<int:item_id>/', 'showItem', showItem)
 app.add_url_rule('/categories/<int:category_id>/items/<int:item_id>/delete', 'deleteItem', deleteItem, methods = ['POST', 'GET'])
 app.add_url_rule('/categories/<int:category_id>/items/<int:item_id>/edit', 'editItem', editItem, methods = ['POST', 'GET'])
 
