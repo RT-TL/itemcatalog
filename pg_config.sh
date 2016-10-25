@@ -8,4 +8,4 @@ pip install Flask-Login==0.1.3
 pip install oauth2client
 pip install requests
 pip install httplib2
-cd /vagrant/oauth/ && python categorydata.py
+cd /vagrant/ && python categorydata.py

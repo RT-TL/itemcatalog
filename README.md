@@ -1,6 +1,6 @@
 # Udacity Item Catalog
 
-The item catalog allows to CRUD items based on social login via Facebook or Google. It is build with Python, HTML/CSS frontend, JavaScript and runs in a vagrant virtual machine.
+The item catalog allows to CRUD items based on social login via Facebook or Google. It is build with Python, HTML/CSS frontend, JavaScript and runs in a vagrant virtual machine. Database is running on PostgreSQL
 
 ## Table of contents
 
