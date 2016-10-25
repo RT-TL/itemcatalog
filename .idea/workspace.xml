@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc6520a7-b891-47f0-bac7-c9038e2d30c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/categorydata.db-journal" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categorydata.db" afterPath="$PROJECT_DIR$/categorydata.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pg_config.sh" afterPath="$PROJECT_DIR$/pg_config.sh" />
     </list>
     <ignored path="oauth.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,17 +77,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="211" selection-start-line="2" selection-start-column="211" selection-end-line="2" selection-end-column="211" />
+            <state relative-caret-position="405">
+              <caret line="27" column="187" selection-start-line="27" selection-start-column="187" selection-end-line="27" selection-end-column="187" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -169,8 +157,8 @@
         <option value="$PROJECT_DIR$/templates/itemdetails.html" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/pg_config.sh" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -811,18 +799,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="211" selection-start-line="2" selection-start-column="211" selection-end-line="2" selection-end-column="211" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="187" selection-start-line="27" selection-start-column="187" selection-end-line="27" selection-end-column="187" />
           <folding />
         </state>
       </provider>

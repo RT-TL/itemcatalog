@@ -22,9 +22,10 @@ To begin install dependencies by running from root:
 1. Run vagrant up to provision virtual machine.
 2. Use 'vagrant ssh' to log into vm.
 3. Navigate to project root directory /vagrant.
-4. Run python categorydata.py to populate a dummy database.
-5. Run python project_user.py to fire up application.
-6. Visit running application in your browser at 0.0.0.0:5000
+4. Run python project_user.py to fire up application.
+5. Visit running application in your browser at 0.0.0.0:5000
+
+The project already contains a dummy database. This was not added to .gitignore on purpose to avoid set up effort. You can delete the database and re-create one by running categorydata.py
 
 ## Requirements
 
